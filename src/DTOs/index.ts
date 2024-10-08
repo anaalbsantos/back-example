@@ -1,3 +1,4 @@
 import { User, UpdateUser } from './User';
+import { Product } from './Product';
 
-export { User, UpdateUser };
+export { User, UpdateUser, Product };

@@ -9,3 +9,10 @@ Table User {
   email String [unique, not null]
   password String [not null]
 }
+
+Table Product {
+  id String [pk]
+  name String [not null]
+  value Int [not null]
+  image String [not null]
+}
